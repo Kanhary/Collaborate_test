@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="text_slide.css">
+</head>
+<body>
+  <div class="auto-text">
+    <span>A</span>
+    <span>u</span>
+    <span>t</span>
+    <span>o</span>
+    <span>-</span>
+    <span>T</span>
+    <span>e</span>
+    <span>x</span>
+    <span>t</span>
+  </div>
+
+
+
+  <script>const spans = document.querySelectorAll('.auto-text span');
+    spans.forEach((span, index) => {
+      span.style.setProperty('--index', index);
+    });</script>
+</body>
+</html>
